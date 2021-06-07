@@ -15,6 +15,7 @@
       ./users.nix
       ./virtualisation.nix
       ./programs.nix
+      ./zram.nix
       ./misc.nix
     ];
 }
