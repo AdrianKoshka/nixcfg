@@ -11,5 +11,8 @@
      enableSSHSupport = true;
      pinentryFlavor = "curses";
    };
+   bash = {
+     shellInit = "EDITOR=vim";
+   };
  };
 }
