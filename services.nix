@@ -9,6 +9,7 @@
   openssh = {
     enable = true;
     passwordAuthentication = false;
+    startWhenNeeded = true;
   };
   avahi = {
     nssmdns = true;
