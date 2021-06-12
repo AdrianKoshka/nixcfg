@@ -10,5 +10,10 @@
      ncdu
      lm_sensors
      pinentry_curses
+     gnupg
+     pciutils
+     usbutils
+     openssl
+     file
    ];
 }
