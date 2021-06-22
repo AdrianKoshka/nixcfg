@@ -1,7 +1,8 @@
 { config, pkgs, ... }:
 
 {
- boot = { 
+ boot = {
+   tmpOnTmpfs = true;
    kernelPackages = pkgs.linuxPackages_latest;
    loader = {
      systemd-boot.enable = false;
@@ -13,6 +14,7 @@
        efiSupport = true;
        efiInstallAsRemovable = true;
        device = "nodev";
+       theme = pkgs.nixos-grub2-theme;
      };
    };
  };
