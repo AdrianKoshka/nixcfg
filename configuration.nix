@@ -14,10 +14,10 @@
       ./services.nix
       ./users.nix
       ./virtualisation.nix
-      ./containers.nix
       ./programs.nix
       ./zram.nix
       ./misc.nix
+      ./containers.nix
     ];
 }
 
