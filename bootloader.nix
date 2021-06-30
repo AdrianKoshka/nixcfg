@@ -7,12 +7,12 @@
    loader = {
      systemd-boot.enable = false;
      efi = {
-       canTouchEfiVariables = false;
+       canTouchEfiVariables = true;
      };
      grub = { 
        enable = true;
        efiSupport = true;
-       efiInstallAsRemovable = true;
+       efiInstallAsRemovable = false;
        device = "nodev";
        theme = pkgs.nixos-grub2-theme;
      };
