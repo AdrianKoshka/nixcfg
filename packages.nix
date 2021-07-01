@@ -20,6 +20,5 @@
      file
      unzip
      powershell
-     sqlite
    ];
 }
