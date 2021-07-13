@@ -3,6 +3,7 @@
 {
  networking = { 
    hostName = "rpi4";
+   domain = "home.arpa";
    firewall.enable = false;
    useDHCP = false;
    interfaces = { 
