@@ -10,6 +10,7 @@
     enable = true;
     passwordAuthentication = false;
     startWhenNeeded = true;
+    permitRootLogin = "no";
   };
   avahi = {
     nssmdns = true;
